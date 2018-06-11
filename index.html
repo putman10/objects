@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Place You've Been</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Places You've Been</h1>
+      <form id="inputPlaceOne">
+        <div class="form-group">
+           <label for="location">Location:</label>
+           <input id="location" type="text" name="location">
+        </div>
+        <div class="form-group">
+        <label for="timeOfYear">Time of Year:</label>
+        <input id="timeOfYear" type="text" name="timeOfYear">
+        </div>
+        <div class="form-group">
+        <label for="transportation">Form of Transportation:</label>
+        <input id="transportation" type="text" name="transportation">
+        </div>
+        <div class="form-group">
+        <label for="reasonForTravel">Reason for Travel:</label>
+        <input id="reasonForTravel" type="text" name="reasonForTravel">
+        </div>
+        <div class="form-group">
+        <label for="scaleOfFun">On a scale of 1-10 how much fun was it?:</label>
+        <input id="scaleOfFun" type="text" name="scaleOfFun">
+        </div>
+        <button id="button" type="submit" name="btn">submit</button>
+      </form>
+      <div class="travelResults">
+        <h3 id="travelHistory">Travel History</h3>
+        <ul class="travelHistory">
+
+        </ul>
+        <div class="moreinfo">
+          <h4></h4>
+          <p>Time of Year: <span class="timeOfYear"></span></p>
+          <p>Mode of Transportation: <span class="transportation"></span></p>
+          <p>Reason for Travel: <span class="reason"></span></p>
+          <p>Fun Scale: <span class="scale"></span></p>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+
+
+<!-- properties, like location, landmarks, time of year, notes, etc. -->
+</html>
